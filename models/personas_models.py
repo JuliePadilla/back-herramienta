@@ -3,6 +3,7 @@ from pydantic import BaseModel
 class EntidadInAdd(BaseModel):
     id_rol: str
     nombre_entidad: str
+    otra_entidad: str
     departamento: str
     municipio: str
 
@@ -10,6 +11,7 @@ class EntidadInAdd(BaseModel):
 class EntidadOut(BaseModel):
     id_rol: str
     nombre_entidad: str
+    otra_entidad: str
     departamento: str
     municipio: str
 
